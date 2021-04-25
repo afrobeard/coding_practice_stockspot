@@ -16,6 +16,8 @@ In another terminal window run the test suite
 python manage.py test
 ```
 
+Review the fruit_classification.csv before proceeding. This contains the classification fruit or vegetable for the favourite foods provided in the sample file. If you're using a different file, this will need to be modified because its the definition of what is a fruit and what is a vegetable.
+
 Migrate, load data and run server
 ```shell
 python manage.py migrate
@@ -51,17 +53,17 @@ or you may begin using the api.
 
 |Get Parameter | Description|
 --- | --- 
-|person_id | **One of person_id or guid is required**. ID of the company|
+|person_id | **One of person_id or guid is required**. Persons Identifier|
 |guid | **One of person_id or guid is required**. GUID|
 
 ###/api/blue_eyed_living_common/
 
 |Get Parameter | Description|
 --- | --- 
-|person_id1 | **One of person_id1 or guid1 is required**. ID of the company|
+|person_id1 | **One of person_id1 or guid1 is required**. Persons Identifier|
 |guid1 | **One of person_id1 or guid1 is required**. GUID|
-|person_id2 | **One of person_id1 or guid1 is required**. ID of the company|
-|guid2 | **One of person_id1 or guid1 is required**. GUID|
+|person_id2 | **One of person_id2 or guid2 is required**. Persons Identifier
+|guid2 | **One of person_id2 or guid2 is required**. GUID|
 
 
 ## Code Formatting
