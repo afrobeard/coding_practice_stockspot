@@ -1,0 +1,10 @@
+Django==3.2
+psycopg2
+djangorestframework
+django-filter
+django-rest-swagger
+factory_boy
+django_extensions
+django-phonenumber-field[phonenumbers]
+ijson
+dateparser
