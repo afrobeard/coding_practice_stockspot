@@ -13,6 +13,7 @@ docker-compose up
 
 In another terminal window run the test suite
 ```shell
+pip install -r requirements.txt
 python manage.py test
 ```
 
